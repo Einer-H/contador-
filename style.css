@@ -1,0 +1,26 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%
+}
+*,*::after,*::before{
+    box-sizing: inherit
+}
+body{
+    font-size: 1.6rem
+}
+
+.ctnr{
+    width: 50rem;
+    margin: 0 auto;
+}
+.btnBox{
+    display: flex;
+    justify-content: space-between;
+}
+.centro{
+    text-align: center;
+    align-items: center;
+}
+#valor{
+    /* padding-bottom: 3rem; */
+}
