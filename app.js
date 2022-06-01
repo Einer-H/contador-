@@ -12,7 +12,10 @@ btns.forEach(function(btn){
             count++
         }else{
             count = 0
-    }
+        }
+        if(count > 0)valor.style.color = 'green'
+        if(count < 0)valor.style.color = 'red'
+        if(count == 0)valor.style.color = '#222'
         valor.textContent = count
     })
 })
